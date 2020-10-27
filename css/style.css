@@ -77,9 +77,9 @@ img {
 /* Add a black background color to the top navigation */
 
 .topnav {
-    background-color: #318f91;
+    /* background-color: #318f91; */
     overflow: hidden;
-    padding: 40px;
+    padding: 20px;
 }
 
 
@@ -88,7 +88,8 @@ img {
 .topnav a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #318f91;
+    font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
