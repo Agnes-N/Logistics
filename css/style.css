@@ -130,6 +130,10 @@ img {
     margin-right: 10%;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .diveder-line {
     border: 1px solid black;
     width: 80%;
