@@ -145,15 +145,16 @@ img {
     width: 100%;
     background-color: #318f91;
     color: white;
-    text-align: center;
     padding: 40px 4px 15px 0;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.address-footer {
+.footer-contents {
     margin-top: -8%;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
 .text-title {
@@ -161,18 +162,15 @@ img {
     color: #318f91;
 }
 
-.first-team {
-    display: grid;
-    grid-gap: 4px;
-    grid-template-columns: repeat(6, 1fr);
-    margin-left: 2%;
-    margin-right: 2%;
+.image-quote {
+    border-radius: 50%;
 }
 
-.our-team {
-    text-align: center;
-    color: #318f91;
-    margin-top: 3%;
+.logistic-slogan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    margin-right: 5%;
     margin-bottom: 3%;
 }
 

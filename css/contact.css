@@ -42,12 +42,6 @@ a:hover {
     font-weight: bold;
 }
 
-.company-background {
-    color: #307274;
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
-
 .footer {
     position: relative;
     left: 0;
@@ -62,21 +56,26 @@ a:hover {
     margin-top: -8%;
 }
 
-.our-team {
-    text-align: center;
-    color: #307274;
+.contact-us {
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
-.future-logistic {
-    margin-top: 5%;
+.contact-title {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #307274;
 }
 
-.future-image {
-    margin-left: 5%;
+.send-button:hover {
+    background-color: #307274;
+    color: white;
 }
 
-.future-team {
-    border-radius: 50%;
+.send-button {
+    text-align: center;
+    width: 30%;
+    background-color: #307274;
+    margin-bottom: 3%;
+    color: white;
 }
