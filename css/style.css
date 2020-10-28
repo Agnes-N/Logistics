@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    /* margin: auto; */
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 100%;
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 48px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: -10%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #318f91;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #83b8b9;
+    background-color: #c5e0e0;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.services1 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.services2 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.diveder-line {
+    border: 1px solid black;
+    width: 80%;
+    margin-top: -4%;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #318f91;
+    color: white;
+    padding: 40px 4px 15px 0;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-contents {
+    margin-top: -8%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.text-title {
+    text-decoration: none;
+    color: #318f91;
+}
+
+.image-quote {
+    border-radius: 50%;
+}
+
+.logistic-slogan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+
+/* @media(max-width: 400px) {
+    .pictures {
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
