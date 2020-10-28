@@ -113,31 +113,6 @@ img {
     display: none;
 }
 
-.services1 {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 10px 10px 5px grey;
-}
-
-.services2 {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 10%;
-    margin-right: 10%;
-}
-
-.diveder-line {
-    border: 1px solid black;
-    width: 80%;
-    margin-top: -4%;
-}
-
 .footer {
     position: relative;
     left: 0;
@@ -152,9 +127,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.text-title {
-    text-decoration: none;
-    color: #318f91;
+.address-footer {
+    margin-top: -8%;
 }
 
 
