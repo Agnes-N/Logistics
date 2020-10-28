@@ -153,6 +153,9 @@ body {
     color: white;
     text-align: center;
     padding: 40px 4px 15px 0;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .text-title {
