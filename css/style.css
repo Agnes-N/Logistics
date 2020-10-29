@@ -134,7 +134,7 @@ img {
 
 .diveder-line {
     border: 1px solid black;
-    width: 80%;
+    width: 85%;
     margin-top: -4%;
 }
 
@@ -157,11 +157,6 @@ img {
     margin-right: 5%;
 }
 
-.text-title {
-    text-decoration: none;
-    color: #318f91;
-}
-
 .image-quote {
     border-radius: 50%;
 }
@@ -172,6 +167,10 @@ img {
     margin-left: 20%;
     margin-right: 5%;
     margin-bottom: 3%;
+}
+
+.service-header {
+    color: #318f91;
 }
 
 
