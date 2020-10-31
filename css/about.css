@@ -1,34 +1,8 @@
-    body {
+    /* body {
         font-family: Verdana, sans-serif;
         margin: auto;
-        background-color: whitesmoke;
     }
-    
-    nav {
-        margin: auto;
-        background-color: white;
-        display: block;
-        font-weight: bold;
-        font-size: 14px;
-        text-transform: uppercase;
-        overflow: hidden;
-    }
-    
-    ul {
-        margin-top: 5%;
-        color: #0f7ae4;
-        margin-right: 1%;
-        overflow: hidden;
-    }
-    
-    a {
-        color: #0f7ae4;
-    }
-    
-    a:hover {
-        background-color: #c5e0e0;
-        color: #0f7ae4;
-    }
+     */
     
     .myimage {
         opacity: 0.6;
@@ -109,13 +83,8 @@
         body {
             font-size: 19px;
         }
-        .furures-logo {
-            width: 90%;
-            height: 170px;
-        }
-        ul {
-            margin-left: 1%;
-            font-size: 12px;
+        .future-image {
+            height: 300px;
         }
         .slogan {
             margin-top: 50%;
@@ -126,26 +95,5 @@
         }
         .footer-contents {
             margin-bottom: 15%;
-        }
-    }
-    
-    @media only screen and (max-width: 520px) {
-        ul {
-            /* font-size: 16px; */
-            margin-left: 7%;
-        }
-    }
-    
-    @media only screen and (max-width: 420px) {
-        ul {
-            font-size: 11px;
-            /* width: 28%; */
-        }
-    }
-    
-    @media only screen and (max-width: 320px) {
-        ul {
-            font-size: 7px;
-            padding: 14px;
         }
     }

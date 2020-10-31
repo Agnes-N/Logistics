@@ -5,7 +5,6 @@
         body {
             font-family: Verdana, sans-serif;
             margin: auto;
-            background-color: whitesmoke;
         }
         
         .mySlides {
@@ -60,38 +59,6 @@
             .text {
                 font-size: 11px
             }
-        }
-        /* Add a black background color to the top navigation */
-        
-        .topnav {
-            background-color: white;
-            overflow: hidden;
-            padding: 20px;
-        }
-        /* Style the links inside the navigation bar */
-        
-        .topnav a {
-            float: right;
-            display: block;
-            color: #0f7ae4;
-            font-weight: bold;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 14px;
-            text-transform: uppercase;
-            margin-top: 5%;
-        }
-        /* Change the color of links on hover */
-        
-        .topnav a:hover {
-            background-color: #83b8b9;
-            background-color: #c5e0e0;
-        }
-        /* Hide the link that should open and close the topnav on small screens */
-        
-        .topnav .icon {
-            display: none;
         }
         
         .services1 {
@@ -192,10 +159,6 @@
                 width: 90%;
                 height: 170px;
             }
-            .topnav a {
-                margin-left: -3%;
-                display: inline-block;
-            }
             .text {
                 font-size: 26px;
                 margin-top: -20%;
@@ -217,18 +180,5 @@
             }
             .footer-contents {
                 margin-bottom: 10%;
-            }
-        }
-        
-        @media only screen and (max-width: 420px) {
-            .topnav a {
-                font-size: 16px;
-                width: 28%;
-            }
-        }
-        
-        @media only screen and (max-width: 320px) {
-            .topnav a {
-                font-size: 10px;
             }
         }

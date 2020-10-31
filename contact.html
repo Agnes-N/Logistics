@@ -10,32 +10,38 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link href="css/contact.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/FLC Ltd LOGO.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/navbar.css">
     <script src="js/contact.js"></script>
 </head>
 
 <body>
-    <section class="navigations">
-        <nav class="navbar">
-            <img src="images/FLC Ltd LOGO.jpg" alt="" width="220" height="140" style="margin-left: 5%;margin-bottom: 0%;">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="service.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
+    <div class="header">
 
-    <section>
-        <div class="card bg-dark text-white">
+        <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/FLC Ltd LOGO.jpg" alt="Logistic logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <section style="margin-top: 8%;">
+        <div class="card bg-dark text-white" style="border: none;">
             <img src="images/Ship-Cargo.jpg" class="card-img myimage" alt="..." height="400" width="100%">
             <div class="card-img-overlay">
                 <h5 class="card-title slogan">Ship with us and move your goods for better!</h5>
@@ -47,9 +53,9 @@
         <h2 class="contact-title">Talk to us</h2>
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8" style="background-color: white;">
+            <div class="col-md-8" style="margin-top: -2%;">
                 <form name="myForm">
-                    <div class="form-row" style="margin-top: 5%;">
+                    <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputEmail4">Firstname</label>
                             <input type="text" class="form-control" id="inputFirstname">
@@ -82,32 +88,33 @@
 
 
     <div class="footer">
-        <div class="container">
+        <div class="container" style="font-size: 12px;">
             <div class="row">
                 <div class="col-md-4 footer-contents">
-                    <h2 class="address-footer">Address
-                    </h2>
-                    <p><strong>PO Box: </strong>7238 Kigali / Rwanda</p>
+                    <h3 class="address-footer">Address
+                    </h3>
+                    <p><strong>PO Box: </strong>7338 Kigali / Rwanda</p>
                     <p><strong>Company Code: </strong>111665076</p>
                     <p><strong>Website: </strong>
                         <a href="www.futurelogisticsltd.com" style="color: white;">www.futurelogisticsltd.com</a>
                     </p>
                 </div>
                 <div class="col-md-4 footer-contents">
-                    <h2 class="address-footer">Contacts
-                    </h2>
+                    <h3 class="address-footer">Contacts
+                    </h3>
                     <p><strong>Email: </strong>futurelogistic0@gmail.com</p>
-                    <p><strong>Tel: </strong>+250 788 913 175</p>
+                    <p><strong>Tel: </strong>+350 788 913 175</p>
                 </div>
                 <div class="col-md-4 footer-contents">
-                    <h2 class="address-footer">Office opening hours
-                    </h2>
+                    <h3 class="address-footer">Office opening hours
+                    </h3>
                     <p>From Monday to Friday (except on public holidays)</p>
                     <p>From 8:00 AM to 7:00 PM</p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>
