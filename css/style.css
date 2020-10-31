@@ -1,181 +1,234 @@
-* {
-    box-sizing: border-box;
-    /* margin: auto; */
-}
-
-body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    background-color: whitesmoke;
-}
-
-.mySlides {
-    display: none;
-}
-
-img {
-    vertical-align: middle;
-}
-
-
-/* Slideshow container */
-
-.slideshow-container {
-    max-width: 100%;
-}
-
-
-/* Caption text */
-
-.text {
-    color: #f2f2f2;
-    font-size: 48px;
-    padding: 8px 12px;
-    position: absolute;
-    margin-top: -10%;
-    width: 100%;
-    text-align: center;
-}
-
-
-/* The dots/bullets/indicators */
-
-.dot {
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: #717171;
-}
-
-
-/* Fading animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-
-/* On smaller screens, decrease text size */
-
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
-    }
-}
-
-
-/* Add a black background color to the top navigation */
-
-.topnav {
-    background-color: white;
-    overflow: hidden;
-    padding: 20px;
-}
-
-
-/* Style the links inside the navigation bar */
-
-.topnav a {
-    float: right;
-    display: block;
-    color: #318f91;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
-    margin-top: 5%;
-}
-
-
-/* Change the color of links on hover */
-
-.topnav a:hover {
-    background-color: #83b8b9;
-    background-color: #c5e0e0;
-}
-
-
-/* Hide the link that should open and close the topnav on small screens */
-
-.topnav .icon {
-    display: none;
-}
-
-.services1 {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 10px 10px 5px grey;
-}
-
-.services2 {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 10%;
-    margin-right: 10%;
-}
-
-.diveder-line {
-    border: 1px solid black;
-    width: 85%;
-    margin-top: -4%;
-}
-
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #318f91;
-    color: white;
-    padding: 40px 4px 15px 0;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.footer-contents {
-    margin-top: -8%;
-    margin-left: 10%;
-    margin-right: 5%;
-}
-
-.image-quote {
-    border-radius: 50%;
-}
-
-.logistic-slogan {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 20%;
-    margin-right: 5%;
-    margin-bottom: 3%;
-}
-
-.service-header {
-    color: #318f91;
-}
-
-
-/* @media(max-width: 400px) {
-    .pictures {
-        grid-template-columns: repeat(1, 1fr);
-    }
-} */
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Verdana, sans-serif;
+            margin: auto;
+            background-color: whitesmoke;
+        }
+        
+        .mySlides {
+            display: none;
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        /* Slideshow container */
+        
+        .slideshow-container {
+            max-width: 100%;
+        }
+        /* Caption text */
+        
+        .text {
+            color: #f2f2f2;
+            font-size: 48px;
+            padding: 8px 12px;
+            position: absolute;
+            margin-top: -10%;
+            width: 100%;
+            text-align: center;
+        }
+        /* The dots/bullets/indicators */
+        
+        .dot {
+            height: 10px;
+            width: 10px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        
+        .active {
+            background-color: #717171;
+        }
+        /* Fading animation */
+        
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        /* On smaller screens, decrease text size */
+        
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+        /* Add a black background color to the top navigation */
+        
+        .topnav {
+            background-color: white;
+            overflow: hidden;
+            padding: 20px;
+        }
+        /* Style the links inside the navigation bar */
+        
+        .topnav a {
+            float: right;
+            display: block;
+            color: #0f7ae4;
+            font-weight: bold;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-top: 5%;
+        }
+        /* Change the color of links on hover */
+        
+        .topnav a:hover {
+            background-color: #83b8b9;
+            background-color: #c5e0e0;
+        }
+        /* Hide the link that should open and close the topnav on small screens */
+        
+        .topnav .icon {
+            display: none;
+        }
+        
+        .services1 {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            box-shadow: 10px 10px 5px grey;
+        }
+        
+        .services2 {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+            margin-top: 10%;
+            margin-right: 10%;
+        }
+        
+        .diveder-line {
+            border: 1px solid black;
+            width: 85%;
+            margin-top: -4%;
+        }
+        
+        .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #0f7ae4;
+            color: white;
+            padding: 40px 4px 15px 0;
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .footer-contents {
+            margin-top: -8%;
+            margin-left: 10%;
+            margin-right: 5%;
+        }
+        
+        .image-quote {
+            border-radius: 50%;
+        }
+        
+        .logistic-slogan {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: 20%;
+            margin-right: 5%;
+            margin-bottom: 3%;
+        }
+        
+        .service-header {
+            color: #0f7ae4;
+        }
+        
+        @media only screen and (max-width: 1024px) {
+            body {
+                font-size: 22px;
+            }
+            .logistic-slogan {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .professional {
+                margin-left: 28%;
+            }
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            body {
+                font-size: 17px;
+            }
+            .services1 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .image-cargo {
+                margin-top: 5%;
+            }
+            .image-storage {
+                margin-top: 5%;
+            }
+            .logistic-slogan {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .professional {
+                margin-left: 30%;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .furures-logo {
+                width: 90%;
+                height: 170px;
+            }
+            .topnav a {
+                margin-left: -3%;
+                display: inline-block;
+            }
+            .text {
+                font-size: 26px;
+                margin-top: -20%;
+            }
+            .services1 {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .image-cargo {
+                margin-top: 5%;
+            }
+            .image-storage {
+                margin-top: 5%;
+            }
+            .logistic-slogan {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .footer {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .footer-contents {
+                margin-bottom: 10%;
+            }
+        }
+        
+        @media only screen and (max-width: 420px) {
+            .topnav a {
+                font-size: 16px;
+                width: 28%;
+            }
+        }
+        
+        @media only screen and (max-width: 320px) {
+            .topnav a {
+                font-size: 10px;
+            }
+        }
